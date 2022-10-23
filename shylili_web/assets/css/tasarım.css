@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin: 0;
+ padding: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+h1{
+	color: rgb(223, 246, 255);
+	 font-size: 50px;
+}
+.kapsayici{
+	width: 100%;
+	background: url("../image/dark_tint.png"),url("../image/2.jpg") ;
+		background-size: cover;
+}
+.baslik{
+	width: 100%;
+	height: 120vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tutucu{
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 90px;
+	background-color: #06283D;
+	box-shadow: -4px 6px 19px 2px #06283D;
+
+}
+.baslik h1{
+	text-shadow: 0px 0px 10px rgb(223, 246, 255);
+	position: absolute;
+	float: right;
+	margin: 15px;
+	left: 15px;
+	top: 0px;
+	z-index: 1;
+}
+.menu ul{
+	position: absolute;
+	float: right;
+	right: 20px;
+	top:0px;
+}
+.menu ul li{
+	float: left;
+	margin: 20px 5px;
+	padding: 10px 10px;
+	list-style: none;
+}
+.menu ul li a:hover{
+	color: navy;
+	background-color: rgb(223, 246, 255);
+	box-shadow:  0px 0px 10px rgb(223, 246, 255);
+	cursor: pointer;
+}
+
+.menu ul li a{
+	border-radius: 5px;
+	border: 1px solid #DFF6FF;
+	background-size: cover;
+	color: rgb(223, 246, 255);
+	text-shadow: 0px 0px 10px rgb(223, 246, 255);
+	font-size: 18px;
+	padding: 15px 15px;
+}
+.bolum{
+	box-shadow: 1px 1px 20px 1px black;
+	margin-top: 120px;
+	width: 350px;
+	height: 500px;
+	text-align:center;
+	background-color: #272727;
+	border-radius: 25px;
+	
+}
+.bolum a{
+	color: rgb(223, 246, 255);
+	font-size: 30px;
+	background-color: #2C3860;
+	padding: 10px;
+	border-radius: 25px;
+	cursor: pointer;
+	margin:10px;
+	border: 2px solid rgb(223, 246, 255) ;
+}
+.bolum a:hover{
+	border: 2px solid navy ;
+	color: rgb(6, 40, 61);
+	background-color: aliceblue;
+	box-shadow: 1px 1px 50px aliceblue;
+	transition:  0.3s ease-in-out;
+}
+.bolum p{
+	color: rgb(223, 246, 255);
+	display: block;
+	margin:50px;
+	font-size: 50px;
+	text-shadow:  1px 1px 20px white;
+}
+.bolum img{
+	width: 250px;
+	margin-top: 25px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 15px 2px white;
+}
+.govde{
+	height: 100vh;
+	with:100%;
+}
+.yan{
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	margin: 0px;
+	width: 15%;
+	background: rgb(2,0,36);
+background: linear-gradient(360deg, rgba(2,0,36,0) 0%, rgba(6,40,61,1) 5%, rgba(6,40,61,1) 92%, rgba(0,212,255,0) 100%);
+}
+.icerik{
+
+	float: right;
+	right: 0px;
+	height: 100vh;
+	width: 85%;
+	background: rgb(2,0,36);
+background: linear-gradient(360deg, rgba(2,0,36,0) 0%, rgba(19,99,223,1) 5%, rgba(19,99,223,1) 92%, rgba(0,212,255,0) 100%);
+}
+.yan ul li{
+	text-align: center;
+	margin: 34% 0px;
+	list-style: none;
+    padding: 15px ;
+
+}
+.yan ul li a{
+	border: 1px solid #DFF6FF;
+	background-size: cover;
+	color: rgb(223, 246, 255);
+	text-shadow: 0px 0px 10px rgb(223, 246, 255);
+	font-size: 18px;
+	padding: 15px 35px;
+	border-radius: 7px;
+}
+.yan ul li a:hover{
+	color: navy;
+	background-color: rgb(223, 246, 255);
+	box-shadow:  0px 0px 10px rgb(223, 246, 255);
+	cursor: pointer;
+}
+.yan ul {
+	border-radius: 10px;
+	margin: 0px 10px;
+	height: 80%;
+	width: 100% ;
+	padding: 15px;
+	border: rgb(223, 246, 255) solid 1px;
+	box-shadow:  0px 0px 50px rgb(223, 246, 255);
+}
+.icerik .kutu{
+	text-align: center;
+	border: rgb(223, 246, 255) solid 1px ;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 0px rgb(223, 246, 255) ;
+	background-color: rgb(6, 40, 61);
+	width: 80%;
+	height: 70%;
+	margin: 100px 0px 100px 130px;
+}
+.icerik .kutu img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
